@@ -42,8 +42,12 @@ class _ValueConvector extends State<FunctionalOfApp> {
                       controller: kmController,
                       onChanged: convertKmToMiles,
                     ),
-                    const SizedBox(
-                      height: 40,
+                    const Center(
+                      heightFactor: 1,
+                      child: SizedBox(
+                        height: 60,
+                        child: Text(style: TextStyle(fontSize: 40), '⇅'),
+                      ),
                     ),
                     TextField(
                       decoration: const InputDecoration(
@@ -85,8 +89,12 @@ class _ValueConvector extends State<FunctionalOfApp> {
                       controller: duimController,
                       onChanged: convertduimTosantim,
                     ),
-                    const SizedBox(
-                      height: 40,
+                    const Center(
+                      heightFactor: 1,
+                      child: SizedBox(
+                        height: 60,
+                        child: Text(style: TextStyle(fontSize: 40), '⇅'),
+                      ),
                     ),
                     TextField(
                       decoration: const InputDecoration(
@@ -128,8 +136,12 @@ class _ValueConvector extends State<FunctionalOfApp> {
                       controller: akrController,
                       onChanged: convertakrTohectar,
                     ),
-                    const SizedBox(
-                      height: 40,
+                    const Center(
+                      heightFactor: 1,
+                      child: SizedBox(
+                        height: 60,
+                        child: Text(style: TextStyle(fontSize: 40), '⇅'),
+                      ),
                     ),
                     TextField(
                       decoration: const InputDecoration(
@@ -171,8 +183,12 @@ class _ValueConvector extends State<FunctionalOfApp> {
                       controller: kgController,
                       onChanged: convertkgTofunt,
                     ),
-                    const SizedBox(
-                      height: 40,
+                    const Center(
+                      heightFactor: 1,
+                      child: SizedBox(
+                        height: 60,
+                        child: Text(style: TextStyle(fontSize: 40), '⇅'),
+                      ),
                     ),
                     TextField(
                       decoration: const InputDecoration(
@@ -214,8 +230,12 @@ class _ValueConvector extends State<FunctionalOfApp> {
                       controller: litrController,
                       onChanged: convertlitrTohalon,
                     ),
-                    const SizedBox(
-                      height: 40,
+                    const Center(
+                      heightFactor: 1,
+                      child: SizedBox(
+                        height: 60,
+                        child: Text(style: TextStyle(fontSize: 40), '⇅'),
+                      ),
                     ),
                     TextField(
                       decoration: const InputDecoration(
